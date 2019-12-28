@@ -1,6 +1,6 @@
 'use strict';
 
-export default function addCustomEvent(element, eventName) {
+export default function(element, eventName) {
 	let event;
 	try {
 		event = new CustomEvent(eventName);
